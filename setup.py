@@ -37,6 +37,7 @@ setup(
     'google.datalab.storage.commands',
     'google.datalab.utils',
     'google.datalab.utils.commands',
+    'google.datalab.utils.facets',
     'google.datalab.contrib',
     'google.datalab.contrib.mlworkbench',
     'google.datalab.contrib.mlworkbench.commands',
@@ -98,7 +99,7 @@ for accessing Google's Cloud Platform services such as Google BigQuery.
     'pytz>=2015.4',
     'pyyaml==3.11',
     'requests==2.9.1',
-    'scikit-learn==0.17.1',
+    'scikit-learn==0.18.2',
     'ipykernel==4.5.2',
     'psutil==4.3.0',
     'jsonschema==2.6.0',
@@ -120,6 +121,7 @@ for accessing Google's Cloud Platform services such as Google BigQuery.
         'static/extern/d3.parcoords.css',
         'static/extern/sylvester.js',
         'static/extern/lantern-browser.html',
+        'static/extern/facets-jupyter.html',
       ],
     'datalab.notebook': [
         'static/bigquery.css',
@@ -137,6 +139,7 @@ for accessing Google's Cloud Platform services such as Google BigQuery.
         'static/extern/d3.parcoords.css',
         'static/extern/sylvester.js',
         'static/extern/lantern-browser.html',
+        'static/extern/facets-jupyter.html',
       ]
   }
 )
