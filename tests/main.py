@@ -42,6 +42,7 @@ import kernel.storage_tests
 import kernel.utils_tests
 import ml.dataset_tests
 import ml.facets_tests
+import ml.summary_tests
 import mltoolbox_code_free_ml.all_tests
 import mltoolbox_structured_data.dl_interface_tests
 import mltoolbox_structured_data.sd_e2e_tests
@@ -93,6 +94,7 @@ _UNIT_TEST_MODULES = [
     kernel.utils_tests,
     ml.dataset_tests,
     ml.facets_tests,
+    ml.summary_tests,
     mlworkbench_magic.ml_tests,
     stackdriver.commands.monitoring_tests,
     stackdriver.monitoring.group_tests,
